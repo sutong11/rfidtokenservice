@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "RFID.Token.Serverless.API": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7251",
+      "launchBrowser": false
+    }
+  }
+}

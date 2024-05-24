@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.9.0" />
+    <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RFID.Infrastructure\RFID.Token.Infrastructure.csproj" />
+    <ProjectReference Include="..\RFID.Token.Tools\RFID.Token.Tools.csproj" />
+    <ProjectReference Include="..\RFID.Application\RFID.Token.Application.csproj" />
+    <ProjectReference Include="..\RFID.Domain\RFID.Token.Domain.csproj" />
+  </ItemGroup>
+</Project>
